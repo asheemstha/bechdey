@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/bechdey./static/css/main.0c3dcff3.chunk.css",
+    "main.js": "/bechdey./static/js/main.fec92682.chunk.js",
+    "main.js.map": "/bechdey./static/js/main.fec92682.chunk.js.map",
+    "runtime-main.js": "/bechdey./static/js/runtime-main.52c88493.js",
+    "runtime-main.js.map": "/bechdey./static/js/runtime-main.52c88493.js.map",
+    "static/js/2.0dd47b3d.chunk.js": "/bechdey./static/js/2.0dd47b3d.chunk.js",
+    "static/js/2.0dd47b3d.chunk.js.map": "/bechdey./static/js/2.0dd47b3d.chunk.js.map",
+    "index.html": "/bechdey./index.html",
+    "precache-manifest.e5432bb70dcaa57140dabeab21bb5066.js": "/bechdey./precache-manifest.e5432bb70dcaa57140dabeab21bb5066.js",
+    "service-worker.js": "/bechdey./service-worker.js",
+    "static/css/main.0c3dcff3.chunk.css.map": "/bechdey./static/css/main.0c3dcff3.chunk.css.map",
+    "static/js/2.0dd47b3d.chunk.js.LICENSE.txt": "/bechdey./static/js/2.0dd47b3d.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/bechdey./static/media/manrope-thin.acdc45e4.otf",
+    "static/media/bechdey-logo-dark.png": "/bechdey./static/media/bechdey-logo-dark.7e3eae03.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.52c88493.js",
+    "static/js/2.0dd47b3d.chunk.js",
+    "static/css/main.0c3dcff3.chunk.css",
+    "static/js/main.fec92682.chunk.js"
+  ]
+}
