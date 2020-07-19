@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import HeaderBrandLogo from "./header-mini-components/brand-logo/brand-logo";
 import HeaderSearchBar from "./header-mini-components/search-bar/search-bar";
 import HeaderRightMenu from "./header-mini-components/right-menu/right-menu";
+import HeaderNavbar from "./header-mini-components/navbar/navbar";
 class Header extends Component {
   render() {
     return (
@@ -17,6 +18,7 @@ class Header extends Component {
             <HeaderRightMenu />
           </div>
         </header>
+        <HeaderNavbar />
       </div>
     );
   }

@@ -1,0 +1,92 @@
+.navbar {
+  width: 100vw;
+  border-top: 0.025rem solid $gray-500;
+  nav.navbar-content {
+    width: 100%;
+    height: 3rem;
+    display: grid;
+    grid-template-columns: 15rem 1fr;
+    grid-template-areas: "CategorySelector Navigator";
+    .category-selector {
+      grid-area: CategorySelector;
+      position: relative;
+      //Font
+      p.category-text {
+        font-size: 0.85rem;
+      }
+      &::after {
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 2rem;
+        width: 0.025rem;
+        background-color: $gray-600;
+      }
+    }
+    ul.nav-links {
+      grid-area: Navigator;
+      margin-left: 3rem;
+      list-style: none;
+      li {
+        height: 3rem;
+        margin: 0 0.5rem;
+
+        .nav-link {
+          height: 100%;
+          width: 100%;
+          padding: 0 0.5rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 0.85rem;
+          color: $gray-600;
+          transition: color 0.25s ease-in-out;
+          &:hover {
+            color: $dark;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .navbar {
+    position: absolute;
+    background-color: rgba($gray-200, 75%);
+    backdrop-filter: blur(10px);
+    top: 8rem;
+    left: 0;
+    right: 0;
+    transform: translateX(-100%);
+    transition: transform 0.25s ease-in-out;
+    nav.navbar-content {
+      display: flex;
+      flex-direction: column;
+      height: calc(100vh - 8rem);
+      .category-selector {
+        background-color: $gray-500;
+        height: 3rem;
+        position: initial;
+        justify-content: flex-start;
+        padding-left: 1rem;
+      }
+      ul.nav-links {
+        margin: 0;
+        flex-direction: column;
+        width: 100%;
+        li {
+          margin: 0;
+          width: 100%;
+          .nav-link {
+            padding: 0;
+          }
+        }
+      }
+    }
+  }
+  .active-navbar {
+    transform: translateX(0);
+  }
+}

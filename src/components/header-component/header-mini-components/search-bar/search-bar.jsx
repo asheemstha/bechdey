@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 function HeaderSearchBar() {
   return (
     <div className="search-bar-cont flex aling-center justify-center">

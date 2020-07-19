@@ -5,6 +5,10 @@ import { GrCompare } from "react-icons/gr";
 import { IoIosMenu } from "react-icons/io";
 import { IconContext } from "react-icons/lib";
 function HeaderRightMenu() {
+  const showNavbar = () => {
+    const navbar = document.querySelector(".navbar");
+    navbar.classList.toggle("active-navbar");
+  };
   return (
     <IconContext.Provider
       value={{
@@ -13,7 +17,7 @@ function HeaderRightMenu() {
     >
       <div className="header-right-menu flex">
         <div className="burger-menu right-menus mobile-show-desktop-hide">
-          <div className="right-menu-links">
+          <div className="right-menu-links" onClick={showNavbar}>
             <div className="right-menu-links-content">
               <IoIosMenu />
               <p className="right-menu-texts">Menu</p>
