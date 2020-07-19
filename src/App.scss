@@ -1,0 +1,117 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: relative;
+}
+
+//Manrope
+@font-face {
+  font-family: "Manrope Thin";
+  src: url("./assets/Fonts/Manrope/manrope-thin.otf");
+}
+@font-face {
+  font-family: "Manrope Light";
+  src: url("./assets/Fonts/Manrope/manrope-light.otf");
+}
+@font-face {
+  font-family: "Manrope";
+  src: url("./assets/Fonts/Manrope/manrope-regular.otf");
+}
+@font-face {
+  font-family: "Manrope Medium";
+  src: url("./assets/Fonts/Manrope/manrope-medium.otf");
+}
+@font-face {
+  font-family: "Manrope Semibold";
+  src: url("./assets/Fonts/Manrope/manrope-semibold.otf");
+}
+@font-face {
+  font-family: "Manrope Bold";
+  src: url("./assets/Fonts/Manrope/manrope-bold.otf");
+}
+@font-face {
+  font-family: "Manrope Extrabold";
+  src: url("./assets/Fonts/Manrope/manrope-extrabold.otf");
+}
+
+//Poppins
+@font-face {
+  font-family: "Poppins Thin";
+  src: url("./assets/Fonts/Poppins/Poppins-Thin.ttf");
+}
+@font-face {
+  font-family: "Poppins Extralight";
+  src: url("./assets/Fonts/Poppins/Poppins-ExtraLight.ttf");
+}
+@font-face {
+  font-family: "Poppins Light";
+  src: url("./assets/Fonts/Poppins/Poppins-Light.ttf");
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/Fonts/Poppins/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: "Poppins Medium";
+  src: url("./assets/Fonts/Poppins/Poppins-Medium.ttf");
+}
+@font-face {
+  font-family: "Poppins Semibold";
+  src: url("./assets/Fonts/Poppins/Poppins-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Poppins Bold";
+  src: url("./assets/Fonts/Poppins/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: "Poppins Extrabold";
+  src: url("./assets/Fonts/Poppins/Poppins-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "Poppins Black";
+  src: url("./assets/Fonts/Poppins/Poppins-Black.ttf");
+}
+
+//Inter
+@font-face {
+  font-family: "Inter Thin";
+  src: url("./assets/Fonts/Inter/Inter-Thin.ttf");
+}
+@font-face {
+  font-family: "Inter Extralight";
+  src: url("./assets/Fonts/Inter/Inter-ExtraLight.ttf");
+}
+@font-face {
+  font-family: "Inter Light";
+  src: url("./assets/Fonts/Inter/Inter-Light.ttf");
+}
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/Fonts/Inter/Inter-Regular.ttf");
+}
+@font-face {
+  font-family: "Inter Medium";
+  src: url("./assets/Fonts/Inter/Inter-Medium.ttf");
+}
+@font-face {
+  font-family: "Inter Semibold";
+  src: url("./assets/Fonts/Inter/Inter-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Inter Bold";
+  src: url("./assets/Fonts/Inter/Inter-Bold.ttf");
+}
+@font-face {
+  font-family: "Inter Extrabold";
+  src: url("./assets/Fonts/Inter/Inter-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "Inter Black";
+  src: url("./assets/Fonts/Inter/Inter-Black.ttf");
+}
+@import "./assets/varibales";
+@import "./assets/global_style";
+@import "./pages/pages";
+@import "./components/components";

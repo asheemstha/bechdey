@@ -1,0 +1,84 @@
+:root {
+  font-size: 16px;
+}
+* {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+/////Background
+.dark-bg {
+  background-color: $dark;
+  color: $light;
+  * {
+    color: $light;
+  }
+}
+/////Display
+.flex {
+  display: flex;
+}
+.column {
+  flex-direction: column;
+}
+.row {
+  flex-direction: row;
+}
+.align-center {
+  align-items: center;
+}
+
+.align-space-between {
+  align-items: space-between;
+}
+.align-space-around {
+  align-items: space-around;
+}
+.align-space-evenly {
+  align-items: space-evenly;
+}
+.align-flex-start {
+  align-items: flex-start;
+}
+.align-flex-end {
+  align-items: flex-end;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-space-between {
+  justify-content: space-between;
+}
+.justify-space-around {
+  justify-content: space-around;
+}
+.justify-space-evenly {
+  justify-content: space-evenly;
+}
+.justify-flex-start {
+  justify-content: flex-start;
+}
+.justify-flex-end {
+  justify-content: flex-end;
+}
+/////Position
+
+/////Responsive
+
+.mobile-show-desktop-hide {
+  display: none !important;
+}
+@media screen and (max-width: 768px) {
+  .desktop-show-mobile-hide {
+    display: none !important;
+  }
+  .mobile-show-desktop-hide {
+    display: block !important;
+  }
+}

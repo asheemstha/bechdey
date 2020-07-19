@@ -1,0 +1,44 @@
+@import "./header-mini-components/header-mini-component.scss";
+
+.header {
+  width: 100vw;
+  background-color: rgba($gray-200, 75%);
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  backdrop-filter: blur(10px);
+  z-index: 999999;
+  border-bottom: 0.025rem solid $gray-500;
+  header.header-content {
+    height: 5rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 15rem 1fr 15rem;
+    grid-template-areas: "HeaderLeft HeaderCenter HeaderRight";
+    .header-left {
+      grid-area: HeaderLeft;
+    }
+    .header-center {
+      grid-area: HeaderCenter;
+    }
+    .header-right {
+      grid-area: HeaderRight;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .header {
+    header.header-content {
+      height: 8rem;
+      grid-template-columns: 1fr 15rem;
+      grid-template-rows: 5rem 3rem;
+      grid-template-areas:
+        "HeaderLeft HeaderRight"
+        "HeaderCenter HeaderCenter";
+      .header-center {
+        border-top: 0.025rem solid $gray-500;
+      }
+    }
+  }
+}

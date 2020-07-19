@@ -1,0 +1,30 @@
+.search-bar-cont {
+  width: 100%;
+  .search-bar-input {
+    background-color: rgba($gray-500, 20%);
+    border: 0.05rem solid $gray-500;
+    border-radius: 4px;
+    padding: 0 1rem;
+    height: 1.75rem;
+    width: 40%;
+    font-size: 0.85rem;
+    -webkit-appearance: none;
+    &::placeholder {
+      text-align: center;
+    }
+  }
+}
+@media screen and (max-width: 992px) {
+  .search-bar-cont {
+    .search-bar-input {
+      width: 75%;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .search-bar-cont {
+    .search-bar-input {
+      width: 95%;
+    }
+  }
+}
