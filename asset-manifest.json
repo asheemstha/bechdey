@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/bechdey./static/css/main.d11613bb.chunk.css",
-    "main.js": "/bechdey./static/js/main.e40179f8.chunk.js",
-    "main.js.map": "/bechdey./static/js/main.e40179f8.chunk.js.map",
+    "main.js": "/bechdey./static/js/main.6985a0d3.chunk.js",
+    "main.js.map": "/bechdey./static/js/main.6985a0d3.chunk.js.map",
     "runtime-main.js": "/bechdey./static/js/runtime-main.52c88493.js",
     "runtime-main.js.map": "/bechdey./static/js/runtime-main.52c88493.js.map",
     "static/js/2.37e9cd82.chunk.js": "/bechdey./static/js/2.37e9cd82.chunk.js",
     "static/js/2.37e9cd82.chunk.js.map": "/bechdey./static/js/2.37e9cd82.chunk.js.map",
     "index.html": "/bechdey./index.html",
-    "precache-manifest.5918c629fa22f8a11c2094b05c1c5b6a.js": "/bechdey./precache-manifest.5918c629fa22f8a11c2094b05c1c5b6a.js",
+    "precache-manifest.4d05d8e3dcbb9dd84144c2fcf9a3f670.js": "/bechdey./precache-manifest.4d05d8e3dcbb9dd84144c2fcf9a3f670.js",
     "service-worker.js": "/bechdey./service-worker.js",
     "static/css/main.d11613bb.chunk.css.map": "/bechdey./static/css/main.d11613bb.chunk.css.map",
     "static/js/2.37e9cd82.chunk.js.LICENSE.txt": "/bechdey./static/js/2.37e9cd82.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.52c88493.js",
     "static/js/2.37e9cd82.chunk.js",
     "static/css/main.d11613bb.chunk.css",
-    "static/js/main.e40179f8.chunk.js"
+    "static/js/main.6985a0d3.chunk.js"
   ]
 }
