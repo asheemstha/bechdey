@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 class App extends Component {
   render() {
     return (
-      <Router basename="/bechdey">
+      <Router basename={"/bechdey"}>
         <div className="App">
           <Header />
           <Switch>
